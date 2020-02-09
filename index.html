@@ -21,15 +21,26 @@
         <button class="mode">Easy</button>
         <button class="selected mode">Hard</button>
     </div>
-    
-    <div id="container">
-        <div class="square"></div>
-        <div class="square"></div>
-        <div class="square"></div>
-        <div class="square"></div>
-        <div class="square"></div>
-        <div class="square"></div>
+    <div class="row">
+        <div class="column score">
+            <h2 id="playerOneDisplay" class="turn">Player One:</h2>
+            <p id="playerOne">0</p>
+        </div>
+        <div class="column">
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+        </div>
+        <div class="column score">
+            <h2 id="playerTwoDisplay">Player Two:</h2>
+            <p id="playerTwo">0</p>
+        </div>
     </div>
+    <button id="nextPlayer">Next Player</button>
+
     <script type="text/javascript" src="color-game.js"></script>
 </body>
 </html>
